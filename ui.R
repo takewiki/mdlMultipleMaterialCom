@@ -15,7 +15,7 @@ shinyUI(
         dashboardSidebar(
             sidebarMenu(
                
-                menuItem("Widgets", tabName = module_name, icon = icon("th"))
+                menuItem("Widgets", tabName = module_id, icon = icon("th"))
             )
         ),
         dashboardBody(
